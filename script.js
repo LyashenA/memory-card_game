@@ -72,6 +72,5 @@ function shuffleCard() {
 shuffleCard();
 
 cards.forEach(card => { // adding click event to all cards
-    card.classList.add('flip');
     card.addEventListener('click', flipCard);
 });
